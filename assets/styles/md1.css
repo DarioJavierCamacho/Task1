@@ -70,7 +70,17 @@ nav a {
     box-sizing: border-box;
     font-size: medium;
 }
+nav a:hover{
+    color:white;
+    background-color: #0a95ff;
+    border: 1px solid white;
+}
 
+.active{
+    color:white;
+    background-color: #5eba7d;
+    border: 1px solid white;
+}
 nav{
     position: absolute;
     top: 1vh;
@@ -143,4 +153,40 @@ th,td{
 
 .container article{
     width: 40vw;
+}
+
+fieldset{
+    border: none;
+    padding: 0.8em;
+    width: 50%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#name{
+    width: 80%;
+}
+
+#last{
+    width: 80%;
+}
+
+#address{
+    width: 100%;
+}
+
+#field-address{
+    width: 90%;
+}
+
+#city{
+    width: 80%;
+}
+
+#zip{
+    width: 80%;
 }
