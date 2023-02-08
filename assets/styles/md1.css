@@ -165,6 +165,9 @@ fieldset{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    border: 1px solid white;
+    padding: 1em;
+    border-radius: 10px;
 }
 
 #name{
@@ -189,4 +192,83 @@ fieldset{
 
 #zip{
     width: 80%;
+}
+
+.closest{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.position{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.check{
+    margin-right: .5em;
+}
+
+.size{   
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        border: 1px solid white;
+        width: 100%;
+        justify-content: space-between;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.grade{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+#submit{
+    font-size: 20px;
+    display: inline-block;
+    margin: 2px;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    height: 2em;
+    width: 10em;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: medium;  
+    margin-left: 25%;
+}
+
+#submit:hover{
+    color:white;
+    background-color: #0a95ff;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.map{
+    height: 5em;
 }
