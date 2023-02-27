@@ -16,7 +16,8 @@ body{
     flex-direction: column;
     height: 30vh;
     background-image: url("../images/hockey_1.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 10% 25%;
     background-repeat: no-repeat;
 }
 .header2{
@@ -24,7 +25,8 @@ body{
     flex-direction: column;
     height: 30vh;
     background-image: url("../images/hockey_2.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position:20% 10%;
     background-repeat: no-repeat;
 }
 .header3{
@@ -32,7 +34,8 @@ body{
     flex-direction: column;
     height: 30vh;
     background-image: url("../images/hockey_3.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: 5% 20%;
     background-repeat: no-repeat;
 }
 
